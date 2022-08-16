@@ -9,7 +9,7 @@ Instrucciones:
  
 A continuación un enlace a mi github donde se encuentra el repositorio de este proyecto (rama main):
  
-https://github.com/Francov11/Sprint-Project-1
+https://github.com/FrancoVelazquezz/T.P-1
  
 Instrucciones:
  
