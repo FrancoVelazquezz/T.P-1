@@ -43,11 +43,11 @@ const updateList = () => {
         priceProducts.innerHTML = arrPriceProduct[i]
         priceList.append(priceProducts)
     }
-    for(i = 0; i < arrPriceProduct.length; i++){
-        arrSubtotalProduct = arrAmountProduct.map(product => product * arrPriceProduct[i])
-        let subTotalProduct = document.createElement('li')
-        subTotalProduct.innerHTML = arrSubtotalProduct[i]
-        subtotalList.append(subTotalProduct)
+    for(i = 0; i < arrAmountProduct.length; i++){
+        let subtotalProducts = document.createElement('li')
+        arrSubtotalProduct[i] = arrAmountProduct[i] * arrPriceProduct[i]
+        subtotalProducts.innerHTML = arrAmountProduct[i] * arrPriceProduct[i]
+        subtotalList.append(subtotalProducts)
     }
 }
 
